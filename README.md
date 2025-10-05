@@ -600,6 +600,22 @@ https://github.com/sjmack/HLAtools
 
 > We have developed HLAtools, an R package that automates the consumption of IPD-IMGT/HLA resources, renders them computable, and makes them available alongside tools for data analysis, visualization and investigation. Tthe package is compatible with all IPD-IMGT/HLA Database release versions up to release 3.58.0.
 
+### immunogenetr
+
+R package
+
+https://github.com/k96nb01/immunogenetr_package
+
+> immunogenetr is a comprehensive toolkit for clinical HLA informatics. It is built on tidyverse principles and makes use of genotype list string (GL string, https://glstring.org/) for storing and using HLA genotype data.
+>
+> Specific functionalities of this library include:
+>
+> Coercion of HLA data in tabular format to and from GL string.
+> Calculation of matching and mismatching in all directions, with multiple output formats.
+> Automatic formatting of HLA data for searching within a GL string.
+> Truncation of molecular HLA data to a specific number of fields.
+> Reading HLA genotypes in HML files and extracting the GL string.
+
 ### Kourami: Graph-guided assembly for HLA alleles
 
 Bash scripts and Java code
@@ -619,6 +635,16 @@ https://github.com/cschin/MATER
 > MATER is a minimizer-based HLA typer for RNAseq read dataset. In a typical RNAseq dataset, the reads sampled from HLA genes are less uniform and may miss regions that makes assembly or variant calling base methods for HLA typing more challenge. Here we adopt a slight different approach. We try to assign each reads to possible HLA types by using minimizers. Namely, we will generate dense minimizer for each reads and compare to those from the HLA type seqeunces.
 
 > We annotate each each reads to possible HLA serotype or 4 digit type sequence according the minimizer matches. Some reads may be able to assign to single HLA type-sequence, some other may be more ambiguous. We derive a simple score to summarize the results from all reads that are mapped to HLA-type sequences for each HLA allele.
+
+## midasHLA
+
+R package
+
+https://github.com/genentech/midasHLA
+
+> We present MiDAS, an R package enabling statistical association analysis and using immunogenetic data transformation functions for HLA amino acid fine mapping, analysis of HLA evolutionary divergence as well as HLA-KIR interactions.
+
+Migdal M, Ruan DF, Forrest WF, Horowitz A, Hammer C (2021) [MiDAS—Meaningful Immunogenetic Data at Scale.](https://pubmed.ncbi.nlm.nih.gov/34228721/) PLOS Computational Biology 17(7): e1009131. doi: 10.1371/journal.pcbi.1009131
 
 ### MultiHLA: WES HLA Typing based on multiple alternative tools
 
@@ -645,6 +671,24 @@ https://sites.google.com/site/phlatfortype/home
 
 > PHLAT is a bioinformatics algorithm that offers HLA typing at four-digit resolution (or higher) using genome-wide transcriptome and exome sequencing data over a wide range of read lengths and sequencing depths.
 
+### py-ard
+
+Python package
+
+https://github.com/nmdp-bioinformatics/py-ard
+
+> HLA ARD Reduction in Python. Although HLA nomenclature has not always conformed to the same standard, it is now defined by The WHO Nomenclature Committee for Factors of the HLA System. py-ard is aware of the variation in historical resolutions and grouping and is able to translate from one representation to another based on alleles published quarterly by IPD/IMGT-HLA.
+
+### PyHLA
+
+Python scripts
+
+https://github.com/felixfan/PyHLA
+
+> Python for HLA analysis: summary, association analysis, zygosity test and interaction test
+
+Yanhui Fan, You-Qiang Song. (2016) [PyHLA: tests for association between HLA alleles and diseases.](https://pubmed.ncbi.nlm.nih.gov/28166716/) BMC Bioinformatics. 2017. 18:90. doi: 10.1186/s12859-017-1496-0
+
 ### seq2HLA: HLA typing from RNA-Seq sequence reads
 
 Python scripts
@@ -669,7 +713,7 @@ https://github.com/mourisl/T1K
 
 > T1K (The ONE genotyper for Kir and HLA) is a computational tool to infer the alleles for the polymorphic genes such as KIR and HLA. T1K calculates the allele abundances based on the RNA-seq/WES/WGS read alignments on the provided allele reference sequences. The abundances are used to pick the true alleles for each gene. T1K provides the post analysis steps, including novel SNP detection and single-cell representation. T1K supports both single-end and paired-end sequencing data with any read length.
 
-Song L, Bai G, Liu XS, Li B, Li H. [Efficient and accurate KIR and HLA genotyping with massively parallel sequencing data.](https://pubmed.ncbi.nlm.nih.gov/37169596/) Genome Res. 2023 [cited 13 May 2023]. doi:10.1101/gr.277585.122
+Song L, Bai G, Liu XS, Li B, Li H. [Efficient and accurate KIR and HLA genotyping with massively parallel sequencing data.](https://pubmed.ncbi.nlm.nih.gov/37169596/) Genome Res. 2023. doi:10.1101/gr.277585.122
 
 ### xHLA: Fast and accurate HLA typing from short read sequence data
 
