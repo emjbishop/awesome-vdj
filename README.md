@@ -182,7 +182,7 @@ https://github.com/phbradley/conga
 
 > CONGA was developed to detect correlation between T cell gene expression profile and TCR sequence in single-cell datasets.
 
-Schattgen, S. A. et al. [Linking T cell receptor sequence to transcriptional profiles with clonotype neighbor graph analysis (CoNGA).](https://www.biorxiv.org/content/10.1101/2020.06.04.134536v1) Cold Spring Harbor Laboratory 2020.06.04.134536 (2020) doi:10.1101/2020.06.04.134536
+Schattgen, S. A. et al. [Linking T cell receptor sequence to transcriptional profiles with clonotype neighbor graph analysis (CoNGA).](https://doi.org/10.1101/2020.06.04.134536) Cold Spring Harbor Laboratory 2020.06.04.134536 (2020) doi:10.1101/2020.06.04.134536
 
 
 ### ClusTCR: a Python interface for rapid clustering of large sets of CDR3 sequences with unknown antigen specificity
