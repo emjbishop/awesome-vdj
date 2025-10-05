@@ -305,7 +305,7 @@ Trained models: https://zenodo.org/record/5006839
 
 > A multi-view Variational Autoencoder (mvTCR) to jointly embed transcriptomic and TCR sequence information at a single-cell level to better capture the phenotypic behavior of T cells. 
 
-An Y, Drost F, Theis F, Schubert B, Lotfollahi M. [Jointly learning T-cell receptor and transcriptomic information to decipher the immune response.](https://www.biorxiv.org/content/10.1101/2021.06.24.449733v1) bioRxiv. 2021. p. 2021.06.24.449733.
+An Y, Drost F, Theis F, Schubert B, Lotfollahi M. [Jointly learning T-cell receptor and transcriptomic information to decipher the immune response.](https://doi.org/10.1101/2021.06.24.449733) bioRxiv. 2021. p. 2021.06.24.449733.
 
 ### PRESTO: The REpertoire Sequencing TOolkit
 
